@@ -78,7 +78,7 @@ $ kubeadm join --token TOKEN 192.168.1.100:6443 --discovery-token-ca-cert-hash H
 
 ```
 
-## Set worker nodes
+## Setup worker nodes
 Follow the instructions above to setup the kubernetes workers.
 
 ## Terraform kubernetes cluster
