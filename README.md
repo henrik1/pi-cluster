@@ -52,6 +52,7 @@ $ sh node_setup.sh
 ```
 
 ## Setup master node
+Copy master_node_config.yaml to the master node and run the following.
 ```
 $ sudo kubeadm init --config master_node_config.yaml
 ```
@@ -81,3 +82,8 @@ $ kubeadm join --token TOKEN 192.168.1.100:6443 --discovery-token-ca-cert-hash H
 Follow the instructions above to setup the kubernetes workers.
 
 ## Terraform kubernetes cluster
+```
+$ terraform init
+$ terraform plan
+$ terraform apply
+```
